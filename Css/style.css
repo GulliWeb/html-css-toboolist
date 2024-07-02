@@ -19,10 +19,12 @@ body{
     padding-left: 30px;
     background-color: white;
     height: 50px;
+    line-height: 50px;
 }
 
 #sub-container{
     margin-top: 2px;
+    height: 1000px;
 }
 
 
@@ -37,6 +39,9 @@ header{
 header span{
     display: inline;
     vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
 }
 
 header img{
@@ -48,16 +53,83 @@ header img{
 
 .add-button, button{
     height: 35px;
-    width: 70px;
+    width: 80px;
     color: white;
     background-color: cornflowerblue;
     border-radius: 10%;
-    line-height: 50px;
+    
 }
 
 #button-section{
     background-color: white;
     color: gray;
+}
+
+/* Unordered list layout */
+
+ul{
+    list-style: none;
+}
+
+.li-button{
+    border-radius: 20%;
+    width: 60px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.li-header{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button-orange{
+    background-color: orange;
+}
+
+.button-green{
+    background-color: #2cc6ab;
+}
+
+li .circle::before {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+    line-height: 15px;
+    font-size: 10px;
+    text-align: center;
+}
+
+li .circle.checked::before {
+    content: '\2713';
+    border: 1px solid #2cc6ab;
+    color: #2cc6ab;
+}
+
+li .circle::before {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+    line-height: 15px;
+    font-size: 10px;
+    text-align: center;
+}
+
+li .circle.checked::before {
+    content: '\2713';
+    border: 1px solid #2cc6ab;
+    color: #2cc6ab;
+}
+
+li .circle.delete::before {
+    content: '\2573';
+    border: 1px solid #ff0000;
+    color: #ff0000;
 }
 
 
