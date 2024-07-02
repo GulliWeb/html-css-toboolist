@@ -12,11 +12,19 @@ body{
 
 /* Utilities */
 
-#container{
+.container{
     width: 1080px;
     margin: 10px auto;
+    margin-bottom: 2px;
+    padding-left: 30px;
     background-color: white;
+    height: 50px;
 }
+
+#sub-container{
+    margin-top: 2px;
+}
+
 
 /* Header */
 
@@ -38,8 +46,18 @@ header img{
 
 /* Main */
 
-.add-button{
-    
+.add-button, button{
+    height: 35px;
+    width: 70px;
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 10%;
+    line-height: 50px;
+}
+
+#button-section{
+    background-color: white;
+    color: gray;
 }
 
 
