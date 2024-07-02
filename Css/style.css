@@ -24,7 +24,7 @@ body{
 
 #sub-container{
     margin-top: 2px;
-    height: 1000px;
+    height: auto;
 }
 
 
@@ -49,7 +49,7 @@ header img{
     vertical-align: middle;
 }
 
-/* Main */
+/* Main button */
 
 .add-button, button{
     height: 35px;
