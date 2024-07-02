@@ -26,8 +26,9 @@ header{
     line-height: 60px;
 }
 
-header h1{
+header span{
     display: inline;
+    vertical-align: middle;
 }
 
 header img{
@@ -36,6 +37,10 @@ header img{
 }
 
 /* Main */
+
+.add-button{
+    
+}
 
 
 
